@@ -76,3 +76,5 @@ class ArticleLike(APIView):
 
         elif action_type == 'unlike':
             article.likers.remove(request.user.id)
+
+        return Response({'status': status.HTTP_200_OK})

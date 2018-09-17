@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from articles.views import Users
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/articles/', include('articles.urls')),
+    path('user/', Users.as_view()),
+
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
     path('auth/', include('djoser.urls.jwt')),

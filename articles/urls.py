@@ -19,6 +19,5 @@ from articles.views import *
 urlpatterns = [
     path('article/', Articles.as_view()),
     path('article/like/', ArticleLike.as_view()),
-    path('user/', Users.as_view()),
 
 ]
