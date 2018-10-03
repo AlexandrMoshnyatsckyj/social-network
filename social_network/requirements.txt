@@ -1,3 +1,4 @@
+celery==4.2.1
 Django==2.1.1
 psycopg2==2.7.5
 pytz==2018.5
@@ -13,3 +14,11 @@ djangorestframework==3.7.7
 djangorestframework-jsonapi==2.4.0
 djangorestframework-jwt==1.11.0
 djoser==1.1.5
+django-celery-results==1.0.1
+
+Faker==0.9.0
+future==0.16.0
+pyhunter==0.3
+requests==2.19.1
+serializers==0.2.4
+clearbit==0.1.7
