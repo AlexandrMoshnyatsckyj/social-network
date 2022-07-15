@@ -14,7 +14,7 @@ djangorestframework==3.7.7
 djangorestframework-jsonapi==2.4.0
 djangorestframework-jwt==1.11.0
 djoser==1.1.5
-django-celery-results==1.0.1
+django-celery-results==2.4.0
 
 Faker==0.9.0
 future==0.16.0
